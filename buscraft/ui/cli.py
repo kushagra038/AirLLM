@@ -189,7 +189,7 @@ Examples:
     debug_parser.add_argument('--failure', required=True, help='Failure ID to debug')
     
     # Status command
-    status_parser = subparsers.add_parser('status', help='Show system status')
+    status_parser = subparsers.add_parser('status show', help='Show system status')
     
     args = parser.parse_args()
     
