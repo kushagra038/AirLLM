@@ -194,7 +194,7 @@ Examples:
     args = parser.parse_args()
     
     if not args.command:
-        parser.print_helps()
+        parser.print_help()
         sys.exit(0)
     
     cli = BuscraftCLI()
