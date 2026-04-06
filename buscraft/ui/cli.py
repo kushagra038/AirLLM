@@ -203,7 +203,7 @@ Examples:
         cli.init_llm(quality_mode=args.quality)
         cli.analyze_logs(args.log, args.waveform)
     
-    elif args.command == 'debugging':
+    elif args.command == 'debug':
         cli.init_llm()
         
         with open(args.data) as f:
