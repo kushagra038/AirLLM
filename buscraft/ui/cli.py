@@ -44,7 +44,7 @@ class BuscraftCLI:
         logger.info("=" * 60)
         
         # Step 1: Parse logs
-        logger.info(f"Parsing UVM logs: {0}")
+        logger.info(f"Parsing UVM logs: {log_file}")
         parser = UVMLogParser()
         
         try:
