@@ -95,7 +95,7 @@ class BuscraftCLI:
                 prompt = RootCausePrompt.build(failure, structured_data)
                 
                 # Generate analysis
-                analysis = self.llm_manager.generate(prompt, max_tokens=1500)
+                analysis = self.llm_manager.generate(prompt, max_tokens=500)
                 
                 failure['llm_analysis'] = analysis
                 
