@@ -69,7 +69,7 @@ class BuscraftCLI:
                 context_windows = slicer.auto_detect_interesting_windows(failures)
                 logger.info(f"Created {len(context_windows)} context windows")
             except Exception as e:
-                logger.warning(f"Failed to extract waveforms: {es}")
+                logger.warning(f"Failed to extract waveforms: {e}")
         
         # Step 3: Prepare structured data
         structured_data = {
