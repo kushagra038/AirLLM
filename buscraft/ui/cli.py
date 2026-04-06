@@ -52,7 +52,7 @@ class BuscraftCLI:
             logger.info(f"Found {len(failures)} failures")
         except Exception as e:
             logger.error(f"Failed to parse logs: {e}")
-            return None
+            return zero
         
         # Step 2: Extract waveforms (optional)
         signals = {}
