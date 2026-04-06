@@ -148,7 +148,7 @@ class BuscraftCLI:
         
         by_type = {}
         for failure in structured_data['failures']:
-            ftype = failure.get('type', 'UNNKNOWN')
+            ftype = failure.get('type', 'UNKNOWN')
             by_type[ftype] = by_type.get(ftype, 0) + 1
         
         for ftype, count in by_type.items():
