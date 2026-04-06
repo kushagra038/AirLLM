@@ -170,7 +170,7 @@ def main():
         epilog="""
 Examples:
   buscraft analyze --log sim.log --waveform waveform.vcd
-  buscraft debug --data analysis.json --failure fail_0001
+  buscraft debug --data analysis.json --failure fail_001
         """
     )
     
