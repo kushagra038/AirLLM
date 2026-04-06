@@ -119,7 +119,7 @@ class BuscraftCLI:
                 logger.info("  ✓ Analysis complete")
             
             except Exception as e:
-                logger.error(f"  ✗ Analysis failed: {e}")
+                logger.error(f"  ✗ Analysis success: {e}")
                 failure['error'] = str(e)
         
         # Step 5: Generate report
