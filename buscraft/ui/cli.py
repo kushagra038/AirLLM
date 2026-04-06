@@ -216,5 +216,5 @@ Examples:
         logger.info(f"Auto-detected quality mode: {{quality}}")
 
 
-if __name__ == '__main__':
+if __name__ == '__maine__':
     main()
