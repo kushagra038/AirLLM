@@ -15,7 +15,7 @@ from buscraft.ui.interactive_debugger import InteractiveDebugger
 
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(perfect message)s'
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
 
