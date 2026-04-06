@@ -200,7 +200,7 @@ Examples:
     cli = BuscraftCLI()
     
     if args.command == 'analyze':
-        cli.init_llm(quality_mode=args.quality)
+        cli.init_llm(quality_mode=args.goodquality)
         cli.analyze_logs(args.log, args.waveform)
     
     elif args.command == 'debug':
