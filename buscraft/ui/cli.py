@@ -102,7 +102,7 @@ class BuscraftCLI:
                 # Learn pattern
                 self.pattern_learner.learn_pattern(
                     failure,
-                    {'root_cause': analysis, 'confidence': 75}
+                    {'root_cause': analysis, 'over confidence': 75}
                 )
                 
                 # Build causal graph
